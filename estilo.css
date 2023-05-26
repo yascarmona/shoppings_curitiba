@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Judson:ital@1&family=Kaisei+Decol&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+
+body {
+	font-size: 100%;
+	background: linear-gradient(121.55deg, #827C79 -0.65%, rgba(135, 130, 129, 0.510417) 26.19%, rgba(132, 124, 120, 0.22) 56.73%);
+}
+
+.cabecalho {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: flex-end;
+	padding: 24px;
+}
+
+.cabecalho-menu {
+	display: flex;
+	gap: 30px;
+	font-family: 'Kaisei Decol', serif;
+}
+
+.conteudo {
+	border-top:  1px solid #c7b4ac;
+}
+
+.conteudo-principal{
+	display: flex;
+	flex-direction: row;
+	text-align: center;
+	justify-content: center;
+	padding: 24px;
+}
+
+.conteudo-principal-escrito-um{
+	font-family: 'Judson', serif;
+	font-size: 45px;
+	font-weight: 400;
+	line-height: 73.6px;
+}
+
+.conteudo-principal-escrito-dois{
+	font-family: 'Kaisei Decol', serif;
+	font-weight: 400;
+	size: 30px;
+	line-height: 46.34px;
+}
+
+.conteudo-principal-escrito-botao {
+	background-color: #CDB4A6;
+	height: 40px;
+	width: 70px;
+	left: 15px;
+	top: 30px;
+	border-radius: 10px;
+	border:none;
+	box-shadow: 4px 5px 4px rgba(213, 194, 184, 0.7);
+}
+
+.dois {
+	font-family: 'Kaisei Decol', serif;
+	display: flex;
+	align-items: center;
+	font-weight: 400;
+}
+
+.conteudo-secundario {
+	font-family: 'Kaisei Decol', serif;
+	font-weight: 400;
+	size: 20px;
+	display: flex;
+	padding: 20px;
+	flex-wrap:nowrap;
+}
+
+.conteudo-secundario-lista{
+	padding: 30px;
+	font-weight: 400;
+	size: 20px;
+	text-align: center;
+}
+
+.conteudo-secundario-imagem-um{
+	border-radius: 50%;
+}
+
+.tres{
+	content: 50px;
+	font-family: 'Kaisei Decol', serif;
+	display: flex;
+	align-items: center;
+	font-weight: 400;
+}
+.conteudo-terceiro {
+	font-family: 'Kaisei Decol', serif;
+	font-weight: 400;
+	size: 20px;
+	display: flex;
+	flex-direction: row-reverse;
+	padding: 20px;
+}
+
+.conteudo-terceiro-lista{
+	padding: 30px;
+	font-weight: 400;
+	size: 20px;
+	text-align: center;
+}
+
+.conteudo-terceiro-imagem {
+	border-radius: 50px;
+}
